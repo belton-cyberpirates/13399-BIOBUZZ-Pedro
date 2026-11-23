@@ -1,0 +1,19 @@
+package org.firstinspires.ftc.teamcode;
+
+// Not on robot yet
+
+public class ASSpinLauncherFast extends ASAction {
+    ASAuto auto;
+
+    public ASSpinLauncherFast(ASAuto auto) {
+        this.auto = auto;
+    }
+
+    public void onStart() {
+        auto.launcher.SetVelocity(ASBotConfig.AUTO_LAUNCHER_FAR_VELOCITY);
+    }
+
+    public boolean isDone() {
+        return true;
+    }
+}
