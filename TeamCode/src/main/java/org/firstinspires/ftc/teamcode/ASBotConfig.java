@@ -1,9 +1,12 @@
 package org.firstinspires.ftc.teamcode;
 
 
-// import com.pedropathing.geometry.Pose;
+import com.pedropathing.math.Pose;
+import com.pedropathing.api.PoseFactory;
 
 public class ASBotConfig {
+  PoseFactory p = PoseFactory.degrees();
+
   /*****************************************************************************
    ** HARDWARE CONSTANTS - Set these to corresponding name in driver station
    *****************************************************************************/

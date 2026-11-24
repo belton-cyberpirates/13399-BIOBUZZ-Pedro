@@ -1,6 +1,5 @@
 package org.firstinspires.ftc.teamcode;
 
-// Not on robot yet
 
 public class ASSpinLauncherFast extends ASAction {
     ASAuto auto;

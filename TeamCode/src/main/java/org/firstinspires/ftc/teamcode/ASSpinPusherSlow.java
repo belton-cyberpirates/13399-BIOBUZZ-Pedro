@@ -3,7 +3,6 @@ package org.firstinspires.ftc.teamcode;
 
 public class ASSpinPusherSlow extends ASAction {
     ASAuto auto;
-    double mult = 1;
 
     public ASSpinPusherSlow(ASAuto auto) {
         this.auto = auto;
